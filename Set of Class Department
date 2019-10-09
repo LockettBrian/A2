@@ -1,0 +1,22 @@
+Class Department{
+  Private String name;
+  Private int numEmp;
+  
+  public setName;{
+  }
+  
+  public setNumEmp;{
+  }
+  
+  private static int totalNumEmp;{
+  }
+  
+  Department dep1 = new Department();
+  
+  Department dep2 = new Department();
+  
+  Department dep3[] = new Department[];
+  
+  
+  
+}  
