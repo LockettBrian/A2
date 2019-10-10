@@ -12,15 +12,20 @@ Class Department{
   }
   
   Department dep1 = new Department();
-  dep1.name;
-  dep1.numEmp;
+  dep1.name = ("CS");
+  dep1.numEmp = 30;
   
-  Department dep2 = new Department();
-  dep2.name = ("CSIT");
-  dep2.numEmp = 20;
+  dep1.add("CS");
   
+  Department dep2 = new Department("CSIT", 20);
+  
+  Department dep1 = Department dep2;
+  
+  dep2.add(10);
+ 
   Department dep3[] = new Department[dep1, dep2];
   
-  
+  System.out.println();
+  System.out.priintln();
   
 }  
