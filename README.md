@@ -13,13 +13,14 @@ public class Department{
   }
 
   private static int totalNumEmp;{
+    totalNumEmp = dep1.numEmp + dep2.numEmp;
   }
 
   Department dep1 = new Department();
 
-  dep1.setName = ("CS");
+  dep1.name = ("CS");
 
-  dep1.setNumEmp = 30;
+  dep1.numEmp = 30;
 
   dep1.add("CS");
 
