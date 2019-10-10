@@ -15,7 +15,6 @@ public class Department{
   }
 
   private static int totalNumEmp;{
-    totalNumEmp = dep1.numEmp + dep2.numEmp;
   }
 
   Department dep1 = new Department();
