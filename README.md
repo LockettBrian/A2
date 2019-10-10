@@ -3,8 +3,10 @@ package University;
 public class Department{
 
   private String name;
-
   int numEmp;
+  
+  puhlic Department(String string, int i) {
+  }
  
   public setName;{
   }
